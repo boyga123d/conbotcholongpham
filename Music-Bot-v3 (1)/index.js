@@ -2,7 +2,7 @@ const db = require('quick.db')
 
 const { Client, Collection } = require("discord.js");
 const {default_prefix} = require("./configuration/config.json")
-const token = 'ODY0MjIwODcxNjY5NzEwODU5.YOySaA.ZQ28c227Niy01HXHZsVjSGNXij0'
+
 
 const client = new Client({
     disableEveryone: true
@@ -55,27 +55,5 @@ client.on("message", async message => {
 
 require('./server')();
 
-client.login(token); // if you are not on replit use client.login('TOKEN HERE')
- console.log("YassineHz CopyRights")//Don't Touch!
-  console.log("YassineHz CopyRights")
-   console.log("YassineHz CopyRights")//Don't Touch!
-    console.log("YassineHz CopyRights")
-     console.log("YassineHz CopyRights")//Don't Touch!
-      console.log("YassineHz CopyRights")
-       console.log("YassineHz CopyRights")//Don't Touch!
-        console.log("YassineHz CopyRights")
-         console.log("YassineHz CopyRights")//Don't Touch!
-          console.log("YassineHz CopyRights")
-           console.log("YassineHz CopyRights")//Don't Touch!
-            console.log("YassineHz CopyRights")
-             console.log("YassineHz CopyRights")//Don't Touch!
-              console.log("YassineHz CopyRights")
-               console.log("YassineHz CopyRights")//Don't Touch!
-                console.log("YassineHz CopyRights")
-                 console.log("YassineHz CopyRights")//Don't Touch!
-                  console.log("YassineHz CopyRights")
-                   console.log("YassineHz CopyRights")//Don't Touch!
-                    console.log("YassineHz CopyRights")
-                     console.log("YassineHz CopyRights")//Don't Touch!
-                      console.log("YassineHz CopyRights")
-                      //Don't Touch! //Don't Touch! //Don't Touch!
+client.login(process.env.token); // if you are not on replit use client.login('TOKEN HERE')
+ console.log("Apects CopyRights - Do not reup")//Don't Touch!
